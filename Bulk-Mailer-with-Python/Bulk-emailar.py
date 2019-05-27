@@ -8,7 +8,7 @@ password = str(input('Your Password:' ))
 From = username
 Subject = 'Test'
 
-wb = xl.load_workbook(r'C:\Users\skt\Documents\emailer.xlsx')
+wb = xl.load_workbook(r'C:\Users\prahlad\Documents\emailer.xlsx')
 sheet1 = wb.get_sheet_by_name('Sheet1')
 
 names = []
